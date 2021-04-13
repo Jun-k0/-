@@ -8,7 +8,7 @@ for _ in range(n):
     st=input().rstrip()
     if st not in arr:
         arr.append(st)
-arr.sort(key=lambda x:(len(x),x))
+arr.sort(key=lambda x:(len(x),x)) # 정렬 순서 방식
 
 for i in arr:
     print(i)
