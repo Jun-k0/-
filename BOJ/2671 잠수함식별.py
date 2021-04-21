@@ -5,7 +5,7 @@ input=sys.stdin.readline
 
 data=input().rstrip()
 p=re.compile('(100+1+|01)+')
-m=p.fullmatch(data)
+m=p.fullmatch(data)     # match 주의
 if m:
     print("SUBMARINE")
 else:
