@@ -17,5 +17,6 @@ def solution(progresses, speeds):
     return answer
   
   '''
-  pop(0) - 첫번째 원소 pop (deque ?)
+  pop(0) - 첫번째 원소 pop : 데이터 지운 후 당겨오기 때문에 O(n)
+  deque.popleft() : O(1) 걸리므로 더 빠르당
   '''
