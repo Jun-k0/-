@@ -20,5 +20,5 @@ def solution(n):
             val+=3**cnt
     return answer
   '''
-  1 2 3 삼진법 풀이로 
+  1 2 3의 삼진법 풀이도 
   '''
